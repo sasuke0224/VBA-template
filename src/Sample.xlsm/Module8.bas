@@ -1,5 +1,5 @@
 Attribute VB_Name = "Module8"
-Sub ���7()
+Sub mondai7()
     Dim arr(1 To 5) As String
     Dim rng As Range
  
@@ -20,7 +20,7 @@ Sub ���7()
     Randomize
 
     Set sheet = Worksheets("Sheet2")
-    Set selectedRange = sheet.Range("A1:A5") 
+    Set selectedRange = sheet.Range("A1:A5")
 
     For Each rng In selectedRange
      rng.Value = arr(Int((Rnd * 5) + 1))

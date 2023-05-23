@@ -1,5 +1,5 @@
 Attribute VB_Name = "Module3"
-Sub –â‘è2()
+Sub mondai2()
     Range("A1") = 1
     Range("A2") = 2
     Range("A3") = 3

@@ -4,8 +4,8 @@ Sub mondai8()
 
     With Application.WorksheetFunction
 
-    maxVal = .Max(Range(Cells(1, 1), Cells(10,1)))
-    minVal = .min(Range(Cells(1, 1), Cells(10,1)))
+    maxVal = .Max(Range(Cells(1, 1), Cells(10, 1)))
+    minVal = .min(Range(Cells(1, 1), Cells(10, 1)))
 
     End With
 

@@ -9,9 +9,9 @@ Attribute VB_PredeclaredId = False
 Attribute VB_Exposed = False
 Option Explicit
 
-Private pId As Integer       
-Private pName As String       
-Private pAmount As Integer    
+Private pId As Integer
+Private pName As String
+Private pAmount As Integer
 
 Public Property Get Id() As Integer
     Id = pId

@@ -9,9 +9,9 @@ Attribute VB_PredeclaredId = False
 Attribute VB_Exposed = False
 Option Explicit
 
-Private pCompanyId As Integer     
-Private pCompanyName As String    
-Private pTrades As Collection     
+Private pCompanyId As Integer
+Private pCompanyName As String
+Private pTrades As Collection
 
 
 Public Property Get CompanyId() As Integer

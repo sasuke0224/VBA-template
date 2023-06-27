@@ -15,4 +15,7 @@ Sub kadai2()
         newBook.SaveAs newBookPath
     
     End If
+
+    
+
 End Sub
